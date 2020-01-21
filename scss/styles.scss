@@ -809,7 +809,7 @@ footer {
     padding: 15px;
     border: 1px solid $border;
     background: #fff;
-    text-align: left;
+    text-align: center;
 
     h3 {
         font-weight: 500;
@@ -825,7 +825,7 @@ footer {
     }
 
     p, ul {
-        margin: 0 0 15px 0;
+        margin: 40 40 15px 0;
         color: $text;
         font-size: 0.9em;
     }
