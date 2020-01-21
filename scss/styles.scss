@@ -39,7 +39,7 @@ $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
 $background: #fff;
-$background-alt: #575757;
+$background-alt: #f2f2f5;
 
 // Define border colors
 $border: #dcd9d9;
@@ -632,6 +632,7 @@ footer {
 
 #projects {
     padding: 50px 15px;
+    /* border-bottom: 1px solid $border; */
     text-align: center;
 
     h2 {
@@ -714,7 +715,7 @@ footer {
         margin: 7px;
         padding: 5px 10px;
         color: $heading;
-        background: darken($background-alt);
+        background: darken($background-alt, 5%);
         list-style: none;
         cursor: default;
         font-size: 1.2em;
