@@ -42,7 +42,7 @@ $background: #fff;
 $background-alt: #f2f2f5;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #fff;
 
 // Define text colors
 $heading: #374054;
@@ -448,6 +448,7 @@ footer {
 #about {
     padding: 75px 15px;
     border-bottom: 1px solid $border;
+	text-align: center;
 
     h2 {
         color: $heading;
@@ -455,7 +456,8 @@ footer {
 
     p {
         color: $text;
-        margin: 0;
+        margin: 500 px;
+		max-width: 500 px;
     }
 }
 
@@ -793,13 +795,14 @@ footer {
     ---------------------------------------
 */
 
-.optional-section {
+#optional-section {
     padding: 50px 15px;
     text-align: center;
-    /* border-top: 1px solid $border; */
+    border-top: 1px solid $border;
 
     h2 {
         color: $heading;
+		text-align: center;
     }
 }
 
