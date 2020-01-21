@@ -405,7 +405,7 @@ footer {
     text-align: center;
     z-index: 10;
     bottom: 15px;
-    color: #fff;
+    color: #575757;
 
     span {
         cursor: pointer;
@@ -707,11 +707,19 @@ footer {
         color: $heading;
         margin-bottom: 50px;
     }
+	
+	#video{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+	padding-top: 50px
+	}
 
     ul {
         display: block;
         margin: 0 auto;
-        padding: 0;
+        padding-bottom: 50px;
         max-width: 800px;
     }
 
