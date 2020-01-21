@@ -449,15 +449,18 @@ footer {
     padding: 75px 15px;
     border-bottom: 1px solid $border;
 	text-align: center;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
 
     h2 {
+		text-align: center;
         color: $heading;
     }
 
     p {
+		text-align: left;
         color: $text;
-        margin: 500 px;
-		max-width: 500 px;
     }
 }
 
